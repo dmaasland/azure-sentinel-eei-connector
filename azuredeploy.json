@@ -106,7 +106,8 @@
                   "name": "[parameters('FunctionName')]",
                   "workerSize": "0",
                   "workerSizeId": "0",
-                  "numberOfWorkers": "1"
+                  "numberOfWorkers": "1",
+                  "reserved": true
               }
           },
           {
@@ -158,7 +159,7 @@
                   "[resourceId('Microsoft.Web/serverfarms', parameters('FunctionName'))]",
                   "[resourceId('Microsoft.Insights/components', parameters('FunctionName'))]"
               ],
-              "kind": "functionapp",
+              "kind": "functionapp,linux",
               "identity": {
                   "type": "SystemAssigned"
               },
