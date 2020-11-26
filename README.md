@@ -1,2 +1,2 @@
 # ESET Enterprise Inspector data connector for Azure Sentinel
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fdmaasland%2Fazure-sentinel-eei-connector%2Fraw%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdmaasland%2Fazure-sentinel-eei-connector%2Fmain%2Fazuredeploy.json)
