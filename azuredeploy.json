@@ -29,7 +29,7 @@
         },
         "domainLogin": {
             "type": "string",
-            "defaultValue": "true",
+            "defaultValue": "false",
             "allowedValues": [
                 "true",
                 "false"
@@ -177,7 +177,8 @@
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('FunctionName'))]",
                 "httpsOnly": true,
                 "clientAffinityEnabled": true,
-                "alwaysOn": true
+                "alwaysOn": true,
+                "reserved": true
             },
             "resources": [{
                 "apiVersion": "2018-11-01",
