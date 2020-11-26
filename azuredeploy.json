@@ -101,7 +101,7 @@
                 "name": "Y1",
                 "tier": "Dynamic"
             },
-            "kind": "functionapp",
+            "kind": "linux",
             "properties": {
                 "name": "[variables('FunctionName')]",
                 "linuxFxVersion": "Python|3.8",
