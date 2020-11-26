@@ -104,7 +104,8 @@
                 "linuxFxVersion": "Python|3.8",
                 "workerSize": "0",
                 "workerSizeId": "0",
-                "numberOfWorkers": "1"
+                "numberOfWorkers": "1",
+                "reserved": true
             }
         },
         {
