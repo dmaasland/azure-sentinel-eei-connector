@@ -28,19 +28,19 @@
             "defaultValue": "<eeiPassword>"
         },
         "domainLogin": {
-            "type": "bool",
-            "defaultValue": true,
+            "type": "string",
+            "defaultValue": "true",
             "allowedValues": [
-                true,
-                false
+                "true",
+                "false"
             ]
         },
         "verifySsl": {
-            "type": "bool",
-            "defaultValue": true,
+            "type": "string",
+            "defaultValue": "true",
             "allowedValues": [
-                true,
-                false
+                "true",
+                "false"
             ]
         }
     },
