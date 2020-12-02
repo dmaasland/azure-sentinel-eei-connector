@@ -39,6 +39,7 @@ def main(eeitimer: func.TimerRequest, inputblob: func.InputStream, outputblob: f
     password = os.environ['eeiPassword']
     domain = bool(strtobool(os.environ['domainLogin']))
     verify = bool(strtobool(os.environ['verifySsl']))
+    start_from_id = int(os.environ['startFromId'])
 
     # Connect to ESET Enterprise Inspector server
     ei = EnterpriseInspector(
@@ -53,7 +54,7 @@ def main(eeitimer: func.TimerRequest, inputblob: func.InputStream, outputblob: f
     if inputblob:
         last_id = json.loads(inputblob.read())['id']
     else:
-        last_id = 0
+        last_id = start_from_id
 
     # Get new detections
     detections = ei.detections(last_id)
