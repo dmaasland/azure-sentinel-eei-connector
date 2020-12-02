@@ -41,7 +41,7 @@
                 "false"
             ]
         },
-        "startFromId": {
+        "startFromID": {
             "type": "int",
             "defaultValue": 0
         }
@@ -177,7 +177,7 @@
                         "eeiPassword": "[parameters('eeiPassword')]",
                         "domainLogin": "[parameters('domainLogin')]",
                         "verifySsl": "[parameters('verifySsl')]",
-                        "startFromId": "[parameters('startFromId')]",
+                        "startFromID": "[parameters('startFromID')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://raw.githubusercontent.com/dmaasland/azure-sentinel-eei-connector/main/ESETEnterpriseInspector.zip"
                     } 
                   }

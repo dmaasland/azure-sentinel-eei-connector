@@ -39,7 +39,7 @@ def main(eeitimer: func.TimerRequest, inputblob: func.InputStream, outputblob: f
     password = os.environ['eeiPassword']
     domain = bool(strtobool(os.environ['domainLogin']))
     verify = bool(strtobool(os.environ['verifySsl']))
-    start_from_id = int(os.environ['startFromId'])
+    start_from_id = int(os.environ['startFromID'])
 
     # Connect to ESET Enterprise Inspector server
     ei = EnterpriseInspector(
